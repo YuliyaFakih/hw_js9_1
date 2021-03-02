@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: grid;
+    grid-template-columns: 300px auto;
+}
+
+.sidebar-container {
+    width: 300px;
+    box-shadow: -30px -30px 14px 29px;
+    height: 100vh;
+    
+    background: #fbc9b1;
+}
+
+#main-container {
+    padding: 17px 26px 0 26px;
+    background: #ffede575;
+}
+
+#main-container div {
+    margin-bottom: 15px;
+}
+
+.sidebar {
+    padding: 17px 26px 0 26px;
+    display: grid;
+    
+    align-items: center;
+    justify-items: center;
+
+}
+
+.sidebar-container button {
+    margin: 24px auto;
+    width: 90px;
+    height: 32px;
+    color: white;
+    background: black;
+    border-radius: 15%;
+    display: block;
+}
+
+.sidebar button:focus {
+    outline-style: none;
+}
