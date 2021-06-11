@@ -32,8 +32,6 @@ color.addEventListener('input', (event) => {
     linksName.style.color = event.currentTarget.value
 })
 
-// цвет будет один у всего текста, не знала, как закрепить за каждым опред. выбранный цвет
-
 const header = document.createElement('h1')
 mainContainer.appendChild(header)
 header.style.textAlign = 'center'
